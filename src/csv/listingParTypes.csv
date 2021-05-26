@@ -1,6 +1,13 @@
 id,titre,amcReady,amcType,interactifReady,
 3G21,Contrôler si deux droites sont parallèles,OK,AMCOpen,KO
 3G30,Calculer une longueurs dans un triangle rectangle en utilisant la trigonométrie,OK,AMCOpen NC,KO
+3L11-1,Utiliser la double distributivité,KO,KO,OK
+3L11-2,Réduire une expression,KO,KO,OK
+3L11-3,Utiliser la distributivité (simple ou double) et réduire,KO,KO,OK
+3L11-4,Factoriser une expression,KO,KO,OK
+3L11-6,Factoriser une expression complexe,KO,KO,OK
+3L11,Utiliser la simple distributivité,KO,KO,OK
+3L12-1,Développer (a-b)(a+b),KO,KO,OK
 4C21,Additionner ou soustraire deux fractions,OK,AMCOpen double NC,KO
 4C32-1,Calcul avec les puissances de dix,KO,KO,OK
 4G20-2,Racine carré d’un carré parfait (calcul mental),KO,KO,OK
@@ -27,7 +34,7 @@ id,titre,amcReady,amcType,interactifReady,
 6C10,Additions soustractions et multiplications posées de nombres entiers,OK,AMCOpen Num,OK
 6C10bis,Additions soustractions multiplications et divisions posées de nombres entiers,OK,AMCOpen,KO
 6C11-1,Divisions euclidiennes : déterminer reste et quotient à partir d'une égalité,OK,AMCOpen,KO
-6C11,Divisions euclidiennes,OK,AMCOpen,KO
+6C11,Divisions euclidiennes,OK,bug amcType.num,KO
 6C20,Additions et soustractions de nombres décimaux,KO,KO,OK
 6C21,Divisions euclidiennes - Niveau 2,OK,AMCOpen,KO
 6C23,Additionner ou soustraire des fractions de même dénominateur,OK,qcmMono,OK

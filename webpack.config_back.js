@@ -166,74 +166,69 @@ const config = {
     // https://webpack.js.org/plugins/html-webpack-plugin/
     // https://github.com/jantimon/html-webpack-plugin#options
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalea.html',
+      template: 'src/html/mathalea.html',
       filename: 'mathalea.html',
       chunks: ['mathalea']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/exercice.html',
+      template: 'src/html/exercice.html',
       filename: 'exercice.html',
       chunks: ['mathalea']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalealatex.html',
+      template: 'src/html/mathalealatex.html',
       filename: 'mathalealatex.html',
       chunks: ['mathalea']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/exo.html',
+      template: 'src/html/exo.html',
       filename: 'exo.html',
       chunks: ['mathalea']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/cm.html',
+      template: 'src/html/cm.html',
       filename: 'cm.html',
       chunks: ['mathaleaDiaporama']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalea2d.html',
+      template: 'src/html/mathalea2d.html',
       filename: 'mathalea2d.html',
       chunks: ['mathalea2d']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalea2dsvg.html',
+      template: 'src/html/mathalea2dsvg.html',
       filename: 'mathalea2dsvg.html',
       chunks: ['mathalea2d']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/2dsvg.html',
+      template: 'src/html/2dsvg.html',
       filename: '2dsvg.html',
       chunks: ['mathalea2d']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/2d.html',
+      template: 'src/html/2d.html',
       filename: '2d.html',
       chunks: ['mathalea2d']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalea_amc.html',
+      template: 'src/html/mathalea_amc.html',
       filename: 'mathalea_amc.html',
       chunks: ['mathalea_amc']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/mathalea2iep.html',
+      template: 'src/html/mathalea2iep.html',
       filename: 'mathalea2iep.html',
       chunks: ['mathalea2iep']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/iep.html',
+      template: 'src/html/iep.html',
       filename: 'iep.html',
       chunks: ['mathalea2iep']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/htmllocal/alacarte.html',
+      template: 'src/html/alacarte.html',
       filename: 'alacarte.html',
       chunks: ['alacarte']
-    }),
-    new HtmlWebpackPlugin({
-      template: 'src/htmllocal/index.html',
-      filename: 'index.html',
-      chunks: ['mathalea']
     })
   ],
   // La liste des fichiers à traiter

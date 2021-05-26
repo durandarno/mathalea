@@ -300,13 +300,6 @@ export default {
     "interactifReady": false,
     "name": "3F13"
   },
-  "3F21-1-2d": {
-    "titre": "Déterminer une fonction affine",
-    "url": "/exercices/3e/3F21-1-2d.js",
-    "amcReady": false,
-    "interactifReady": false,
-    "name": "3F21-1-2d"
-  },
   "3F21-1": {
     "titre": "Déterminer une fonction affine",
     "url": "/exercices/3e/3F21-1.js",
@@ -543,28 +536,28 @@ export default {
     "titre": "Utiliser la double distributivité",
     "url": "/exercices/3e/3L11-1.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11-1"
   },
   "3L11-2": {
     "titre": "Réduire une expression",
     "url": "/exercices/3e/3L11-2.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11-2"
   },
   "3L11-3": {
     "titre": "Utiliser la distributivité (simple ou double) et réduire",
     "url": "/exercices/3e/3L11-3.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11-3"
   },
   "3L11-4": {
     "titre": "Factoriser une expression",
     "url": "/exercices/3e/3L11-4.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11-4"
   },
   "3L11-5": {
@@ -578,21 +571,21 @@ export default {
     "titre": "Factoriser une expression complexe",
     "url": "/exercices/3e/3L11-6.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11-6"
   },
   "3L11": {
     "titre": "Utiliser la simple distributivité",
     "url": "/exercices/3e/3L11.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L11"
   },
   "3L12-1": {
     "titre": "Développer (a-b)(a+b)",
     "url": "/exercices/3e/3L12-1.js",
     "amcReady": false,
-    "interactifReady": false,
+    "interactifReady": true,
     "name": "3L12-1"
   },
   "3L12": {
@@ -1899,8 +1892,7 @@ export default {
     "url": "/exercices/6e/6C11.js",
     "amcReady": true,
     "amcType": {
-      "num": 3,
-      "text": "AMCOpen"
+      "text": "bug amcType.num"
     },
     "interactifReady": false,
     "name": "6C11"
